@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "compare_input",
+        "format_input",
+        "player_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease compare cricketer \"{player_input}\" with Rohit Sharma based on following aspects:\nBased on : {compare_input}\nin \"{format_input}\"\n1. Statistical Comparison:\n    -Include proper stats till data availabe to you that is available for the {compare_input} for the {format_input} format\n    -Explain in simple terms to the users, telling who perform better statistically and give comparison tables\n2. Similarity:\n    -Include what is similar in them in the give aspect {compare_input} for the {format_input} format\nyou can also tell who is more pleasing to eyes while batting and who have that extra bit of the time for his batting\nEnsure comparison is clear, accurate, based on data and facts till data available to you in the provided format and aspect.\nAlso clearly mention the time period for which you have used the stats\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
